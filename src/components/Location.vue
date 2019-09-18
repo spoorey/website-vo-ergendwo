@@ -1,21 +1,24 @@
 <template>
-  <section id="location" class="text-center container">
-    <h2>
-      Wie man uns findet
+  <section class="container">
+    <h2 id="location" class="text-center">
+      {{ $t('location_title') }}
     </h2>
+    <p>
+      {{ $t('location_text') }}
+    </p>
     <b-row class="text-left">
       <b-col cols="6" md="3">
-        <h4>Adresse</h4>
+        <h4>{{ $t('location_address') }}</h4>
         <b>Tommasini</b><br>
         Seonerstrasse 23<br>
         5600 Lenzburg
       </b-col>
       <b-col cols="6" md="3">
-        <h4>Öffentlicher Verkehr</h4>
-        <b>Ab Lenzburg Bahnhof</b><br>
-        Buslinie 666<br>
-        bis Haltestelle <em>Tommasini</em><br>
-        <b>Hinweis:</b> Teilnehmenden können wir 50% der Billetkosten bezahlen!
+        <h4>{{ $t('location_public_transport') }}</h4>
+        <b>{{ $t('location_from_lb') }}</b><br>
+        {{ $t('location_bus_line') }}<br>
+        {{ $t('location_bus_stop') }}<br><br>
+        <b>{{ $t('location_note') }}:</b> {{ $t('location_note_discount') }}
       </b-col>
       <b-col cols="12" md="6">
           <gmap-map

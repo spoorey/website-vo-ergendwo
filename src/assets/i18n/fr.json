@@ -3,6 +3,17 @@
     "nav_about": "",
     "nav_info_participant": "",
     "nav_info_helper": "",
-    "nav_info_location": "",
-    "nav_info_contact": ""
+    "nav_location": "",
+    "nav_info_contact": "",
+    "location_public_transport": "",
+    "location_from_lb": "",
+    "location_bus_line": "",
+    "location_bus_stop": "",
+    "location_note": "",
+    "location_note_discount": "",
+    "location_title": "",
+    "location_address": "",
+    "location_text": "",
+    "contact_title": "",
+    "contact_requests": ""
 }

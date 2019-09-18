@@ -1,8 +1,21 @@
 {
     "about_slogan": "Wir sind alle \"vo ergendwo\"",
+    "nav_language": "Sprache",
     "nav_about": "Über uns",
     "nav_info_participant": "Infos für Teilnehmende",
     "nav_info_helper": "Infos für Helfende",
-    "nav_info_location": "Anreise",
-    "nav_info_contact": "Kontakt"
+    "nav_location": "Anreise",
+    "nav_info_contact": "Kontakt",
+    "about_lead": "Deutschtreff für Geflüchtete - jeden Dienstag und Donnerstag 18:00 bis 20:00 im Tommasini Lenzburg",
+    "location_public_transport": "Öffentlicher Verkehr",
+    "location_from_lb": "Ab Lenzburg Bahnhof",
+    "location_bus_line": "Bus Linie 666",
+    "location_bus_stop": "Bis Haltestelle \"Tommasini\" oder so",
+    "location_note": "Hinweis",
+    "location_note_discount": "Teilnehmenden können wir 50% der Billetkosten für den ÖV bezahlen.",
+    "location_title": "Anreise",
+    "location_address": "Adresse",
+    "location_text": "Wir sind im Tommasini in Lenzburg. Das Tommasini ist einfach mit dem ÖV, zu Fuss, mit dem Auto oder dem Velo erreichbar.\nParkplätze und Stellplätze für Velos sind gratis verfügbar.\nZu Fuss ist das Tommasini vom Bahnhof Lenzburg in 15 Minuten erreichbar. Von Lenzburg Bahnhof fährt auch die Bus-Linie 666 am Tommasini vorbei.",
+    "contact_title": "Kontakt",
+    "contact_requests": "Für Anfragen"
 }
