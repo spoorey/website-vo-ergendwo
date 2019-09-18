@@ -1,54 +1,37 @@
 <template>
   <div id="app">
-    <header>
-      <span>Vue.js PWA</span>
-    </header>
-    <main>
-      <img src="./assets/logo.png" alt="Vue.js PWA">
-      <router-view></router-view>
-    </main>
+    <nav-bar></nav-bar>
+      <!--<router-view></router-view>-->
+      <about></about>
+      <location></location>
+      <lorem-ipsum></lorem-ipsum>
   </div>
 </template>
 
 <script>
+import Vue from 'vue'
+import NavBar from './components/NavBar'
+import About from './components/About'
+import Location from './components/Location'
+import LoremIpsum from './components/LoremIpsum'
+import Polyglot from 'vue-polyglot'
+import langDe from './assets/i18n/de.json'
+import langFr from './assets/i18n/fr.json'
+import langEn from './assets/i18n/en.json'
+
+Vue.use(Polyglot, {
+  defaultLanguage: 'de',
+  languagesAvailable: ['de', 'en', 'fr']
+})
+
+Vue.locales({
+  de: langDe,
+  en: langEn,
+  fr: langFr
+})
+// */
 export default {
-  name: 'app'
+  name: 'app',
+  components: {NavBar, LoremIpsum, About, Location, Polyglot, Vue}
 }
 </script>
-
-<style>
-body {
-  margin: 0;
-}
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: #2c3e50;
-}
-
-main {
-  text-align: center;
-  margin-top: 40px;
-}
-
-header {
-  margin: 0;
-  height: 56px;
-  padding: 0 16px 0 24px;
-  background-color: #35495E;
-  color: #ffffff;
-}
-
-header span {
-  display: block;
-  position: relative;
-  font-size: 20px;
-  line-height: 1;
-  letter-spacing: .02em;
-  font-weight: 400;
-  box-sizing: border-box;
-  padding-top: 16px;
-}
-</style>

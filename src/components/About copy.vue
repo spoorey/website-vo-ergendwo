@@ -1,15 +1,13 @@
 <template>
-  <div class="hello">
+  <div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'hello',
+  name: 'about',
   data () {
-    return {
-      msg: 'Welcome to Your Vue.js PWA'
-    }
+    return {}
   }
 }
 </script>

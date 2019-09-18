@@ -6,6 +6,13 @@ import router from './router'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
+import './style/global.css'
+import '@fortawesome/fontawesome-free/css/all.css'
+
+// import './creative-template/jquery-3.4.1.min.js'
+// import './creative-template/jquery.easing.min.js'
+// import './creative-template/js/creative.min.js'
+// import './creative-template/css/creative.min.css'
 
 Vue.use(BootstrapVue)
 
