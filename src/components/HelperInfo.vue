@@ -2,19 +2,30 @@
   <section class="container">
     <span id="helper_info" class="nav-anchor"></span>
     <h2 class="text-center">Mitmachen</h2>
+    <p class="lead text-center"><strong>Du willst Geflüchteten helfen?</strong><strong class="text-danger"> Wir suchen dich!</strong></p>
+    <!--<img src="../assets/helper-1.jpeg" class="img-fluid float-left d-inline d-lg-none">-->
     <p>
-    Wir organisieren jeden Dienstag- und Donnerstagabend einen Deutschtreff im Tommasini Lenzburg, bei dem Geflüchtete und Einheimische zusammen lernen, spielen und Freundschaften knüpfen können. Dabei steht vor allem eine lockere Atmosphäre im Vordergrund, in der es nicht in erster Linie um Schule geht, sondern wo man sich gegenseitig unterstützen, voneinander lernen und zusammen eine gute Zeit haben kann.
-    <br>
-    Wenn DU also daran interessiert bist, dich unverbindlich ehrenamtlich zu betätigen und dabei viele neue Gesichter kennen zu lernen, dann bist du bei uns genau richtig. Komm doch einfach mal vorbei oder melde dich bei uns via FB-Nachricht oder E-Mail!
-    <br>
+      Wir organisieren jeden Dienstag- und Donnerstagabend einen Deutschtreff im Tommasini Lenzburg, bei dem Geflüchtete und Einheimische zusammen lernen, spielen und Freundschaften knüpfen können. Dabei steht vor allem eine lockere Atmosphäre im Vordergrund, in der es nicht in erster Linie um Schule geht, sondern wo man sich gegenseitig unterstützen, voneinander lernen und zusammen eine gute Zeit haben kann.
+      <br>
+      Wenn DU also daran interessiert bist, dich unverbindlich ehrenamtlich zu betätigen und dabei viele neue Gesichter kennen zu lernen, dann bist du bei uns genau richtig. Komm doch einfach mal vorbei oder melde dich bei uns via FB-Nachricht oder E-Mail!
+      <br>
     </p>
-    <p>
-    <strong>Wann und Wo?</strong><br>
-    Dienstag und Donnerstag von 18.00 - 20.00 Uhr<br>
-    Tommasini Lenzburg<br>
-    Seonerstrasse 23<br>
-    5600 Lenzburg
-    </p>
+    <b-row>
+      <b-col cols="12" md="8">
+        <p>
+          <strong>Wann und Wo?</strong><br>
+          Dienstag und Donnerstag von 18.00 - 20.00 Uhr<br>
+          Tommasini Lenzburg<br>
+          Seonerstrasse 23<br>
+          5600 Lenzburg
+        </p>
+      </b-col>
+      <b-col cols="12" md="4">
+        <a href="#contact" class="btn btn-info btn-lg"><i class="fas fa-phone"></i> {{ $t('nav_info_contact') }} </a>
+        <a href="#location" class="btn btn-info btn-lg"><i class="fa fa-route"></i> {{ $t('nav_location') }}</a>
+      </b-col>
+    </b-row>
+
   </section>
 </template>
 
@@ -29,4 +40,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.helper-image {
+  max-width: 100px;
+}
+
+a.btn {
+  margin-bottom: 5px;
+}
 </style>

@@ -17,8 +17,11 @@
     "location_address": "Adresse",
     "location_text": "Wir sind im Tommasini in Lenzburg. Das Tommasini ist einfach mit dem ÖV, zu Fuss, mit dem Auto oder dem Velo erreichbar.\nParkplätze und Stellplätze für Velos sind gratis verfügbar.\nZu Fuss ist das Tommasini vom Bahnhof Lenzburg in 15 Minuten erreichbar. Von Lenzburg Bahnhof fährt auch die Bus-Linie 666 am Tommasini vorbei.",
     "contact_title": "Kontakt",
-    "contact_requests": "Für Anfragen",
+    "contact_requests": "Ansprechsperson",
     "participant_info_title": "Infos für Teilnehmende",
     "participant_info_text": "Schön, dass du dich für den Deutschtreff interessierst!\nLeider weiss ich nicht was ich hier hinschreiben soll.",
-    "footer_title": "Freunde von irgendwo"
+    "footer_title": "Freunde von irgendwo",
+    "contact_social": "Soziale Medien",
+    "location_maps": "Auf Google Maps",
+    "contact_address": "Für schriftliche Anfragen"
 }
