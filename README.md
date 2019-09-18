@@ -1,6 +1,6 @@
-# website-deutschtreff
+# Website vom Deutschtreff "Vo ergendwo"
 
-> Website Deutsc\"Vo Ergendwo\"htreff Vo ergendwo
+Hoffentlich bald auf vo-ergendwo.ch zu finden
 
 ## Build Setup
 
