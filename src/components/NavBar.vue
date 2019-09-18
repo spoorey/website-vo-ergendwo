@@ -1,13 +1,13 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
-    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-    <b-collapse id="nav-collapse" is-nav>
-      <b-navbar-brand href="#"><img src="../assets/logo_simple_white.png" style="max-height: 20px;"></b-navbar-brand>
-      <b-navbar-nav class="ml-auto d-lg-none d-inline">
-        <b-nav-item-dropdown :text="$t('nav_language')" right>
+    <b-navbar-brand href="#"><img src="../assets/logo_simple_white.png" style="max-height: 20px;"></b-navbar-brand>
+    <b-navbar-nav class="mobile-lang ml-auto float-right d-inline-block d-lg-none">
+        <b-nav-item-dropdown right><template slot="button-content"><i class="fas fa-language fa-lg"></i> {{ $t('nav_language') }}</template>
           <b-dropdown-item v-for="(language, key) in languages" v-on:click="showAppIn(key)" v-bind:key="key">{{ language }}</b-dropdown-item>
         </b-nav-item-dropdown>
-      </b-navbar-nav>
+    </b-navbar-nav>
+    <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+    <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item href="#about">{{ $t('nav_about')   }}</b-nav-item>
         <b-nav-item href="#info_participant">{{ $t('nav_info_participant') }}</b-nav-item>
@@ -17,7 +17,7 @@
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto d-lg-inline d-none">
-        <b-nav-item-dropdown :text="$t('nav_language')" right>
+        <b-nav-item-dropdown right><template slot="button-content"><i class="fas fa-language fa-lg"></i> {{ $t('nav_language') }}</template>
           <b-dropdown-item v-for="(language, key) in languages" v-on:click="showAppIn(key)" v-bind:key="key">{{ language }}</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
@@ -48,4 +48,14 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
+.mobile-lang {
+  position: absolute;
+  right: 80px;
+  top: 6px;
+  text-align: right;
+}
+
+.mobile-lang li {
+  text-align: right;
+}
 </style>

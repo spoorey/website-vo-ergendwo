@@ -1,6 +1,6 @@
 {
     "about_slogan": "Wir sind alle \"vo ergendwo\"",
-    "nav_language": "Sprache",
+    "nav_language": "Sprache wählen",
     "nav_about": "Über uns",
     "nav_info_participant": "Infos für Teilnehmende",
     "nav_info_helper": "Mitmachen",
@@ -19,5 +19,6 @@
     "contact_title": "Kontakt",
     "contact_requests": "Für Anfragen",
     "participant_info_title": "Infos für Teilnehmende",
-    "participant_info_text": "Schön, dass du dich für den Deutschtreff interessierst!\nLeider weiss ich nicht was ich hier hinschreiben soll."
+    "participant_info_text": "Schön, dass du dich für den Deutschtreff interessierst!\nLeider weiss ich nicht was ich hier hinschreiben soll.",
+    "footer_title": "Freunde von irgendwo"
 }

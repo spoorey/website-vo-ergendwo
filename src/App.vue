@@ -7,6 +7,7 @@
       <helper-info></helper-info>
       <location></location>
       <contact></contact>
+      <app-footer></app-footer>
   </div>
 </template>
 
@@ -17,6 +18,7 @@ import About from './components/About'
 import ParticipantInfo from './components/ParticipantInfo'
 import HelperInfo from './components/HelperInfo'
 import Location from './components/Location'
+import AppFooter from './components/Footer'
 import LoremIpsum from './components/LoremIpsum'
 import Contact from './components/Contact'
 import Polyglot from 'vue-polyglot'
@@ -39,6 +41,6 @@ Vue.locales({
 // */
 export default {
   name: 'app',
-  components: {NavBar, LoremIpsum, About, Location, Polyglot, Vue, Contact, HelperInfo, ParticipantInfo}
+  components: {NavBar, LoremIpsum, About, Location, Polyglot, Vue, Contact, HelperInfo, ParticipantInfo, AppFooter}
 }
 </script>
