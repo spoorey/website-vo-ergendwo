@@ -1,6 +1,7 @@
 <template>
   <section class="container">
-    <h2 id="location" class="text-center">
+    <span id="location" class="nav-anchor"></span>
+    <h2 class="text-center">
       {{ $t('location_title') }}
     </h2>
     <p>

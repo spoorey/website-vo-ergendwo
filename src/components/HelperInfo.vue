@@ -1,6 +1,7 @@
 <template>
   <section class="container">
-    <h2 id="contact" class="text-center">Infos für Helfende</h2>
+    <span id="helper_info" class="nav-anchor"></span>
+    <h2 class="text-center">Infos für Helfende</h2>
     <p>
     Wir organisieren jeden Dienstag- und Donnerstagabend einen Deutschtreff im Tommasini Lenzburg, bei dem Geflüchtete und Einheimische zusammen lernen, spielen und Freundschaften knüpfen können. Dabei steht vor allem eine lockere Atmosphäre im Vordergrund, in der es nicht in erster Linie um Schule geht, sondern wo man sich gegenseitig unterstützen, voneinander lernen und zusammen eine gute Zeit haben kann.
     <br>

@@ -1,20 +1,21 @@
 <template>
   <section class="container">
-    <h2 id="contact" class="text-center">
+    <span id="contact" class="nav-anchor"></span>
+    <h2 class="text-center">
       {{ $t('contact_title') }}
     </h2>
     <b-row>
-      <b-col cols="6" sm="4">
+      <b-col cols="12" md="4">
         <strong>{{ $t('contact_requests') }}:</strong><br>
         Marino Galli<br>
         +41 78 856 70 07<br>
         <a href="mailto:info@vo-ergendwo.ch">info@vo-ergendwo.ch</a>
       </b-col>
-      <b-col cols="12" sm="4">
+      <b-col cols="12" md="4">
         <div id="fb-root"></div>
         <div class="fb-page" data-href="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/">Deutschtreff: vo ergendwo</a></blockquote></div>
       </b-col>
-      <b-col cols="12" sm="4" style="background-color: gray;">Instagram?</b-col>
+      <b-col cols="12" md="4" style="background-color: gray;">Instagram?</b-col>
     </b-row>
   </section>
 </template>
