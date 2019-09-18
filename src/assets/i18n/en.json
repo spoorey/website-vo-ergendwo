@@ -16,5 +16,7 @@
     "location_address": "",
     "location_text": "",
     "contact_title": "",
-    "contact_requests": ""
+    "contact_requests": "",
+    "participant_info_title": "",
+    "participant_info_text": ""
 }

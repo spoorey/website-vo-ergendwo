@@ -3,7 +3,7 @@
     "nav_language": "Sprache",
     "nav_about": "Über uns",
     "nav_info_participant": "Infos für Teilnehmende",
-    "nav_info_helper": "Infos für Helfende",
+    "nav_info_helper": "Mitmachen",
     "nav_location": "Anreise",
     "nav_info_contact": "Kontakt",
     "about_lead": "Deutschtreff für Geflüchtete - jeden Dienstag und Donnerstag 18:00 bis 20:00 im Tommasini Lenzburg",
@@ -17,5 +17,7 @@
     "location_address": "Adresse",
     "location_text": "Wir sind im Tommasini in Lenzburg. Das Tommasini ist einfach mit dem ÖV, zu Fuss, mit dem Auto oder dem Velo erreichbar.\nParkplätze und Stellplätze für Velos sind gratis verfügbar.\nZu Fuss ist das Tommasini vom Bahnhof Lenzburg in 15 Minuten erreichbar. Von Lenzburg Bahnhof fährt auch die Bus-Linie 666 am Tommasini vorbei.",
     "contact_title": "Kontakt",
-    "contact_requests": "Für Anfragen"
+    "contact_requests": "Für Anfragen",
+    "participant_info_title": "Infos für Teilnehmende",
+    "participant_info_text": "Schön, dass du dich für den Deutschtreff interessierst!\nLeider weiss ich nicht was ich hier hinschreiben soll."
 }

@@ -3,10 +3,10 @@
     <nav-bar></nav-bar>
       <!--<router-view></router-view>-->
       <about></about>
+      <participant-info></participant-info>
       <helper-info></helper-info>
       <location></location>
       <contact></contact>
-      <lorem-ipsum></lorem-ipsum>
   </div>
 </template>
 
@@ -14,6 +14,7 @@
 import Vue from 'vue'
 import NavBar from './components/NavBar'
 import About from './components/About'
+import ParticipantInfo from './components/ParticipantInfo'
 import HelperInfo from './components/HelperInfo'
 import Location from './components/Location'
 import LoremIpsum from './components/LoremIpsum'
@@ -38,6 +39,6 @@ Vue.locales({
 // */
 export default {
   name: 'app',
-  components: {NavBar, LoremIpsum, About, Location, Polyglot, Vue, Contact, HelperInfo}
+  components: {NavBar, LoremIpsum, About, Location, Polyglot, Vue, Contact, HelperInfo, ParticipantInfo}
 }
 </script>
