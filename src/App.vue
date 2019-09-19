@@ -26,6 +26,9 @@ import langDe from './assets/i18n/de.json'
 import langFr from './assets/i18n/fr.json'
 import langEn from './assets/i18n/en.json'
 import langTg from './assets/i18n/tg.json'
+import VueScrollTo from 'vue-scrollto'
+
+Vue.use(VueScrollTo, {duration: 250})
 
 Vue.use(Polyglot, {
   defaultLanguage: 'de',

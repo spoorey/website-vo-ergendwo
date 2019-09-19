@@ -5,8 +5,8 @@
     <h2 class="text-center">{{ $t('participant_info_title') }}</h2>
     <p>{{ $t('participant_info_text') }}</p>
     <p class="text-center">
-      <a href="#contact" class="btn btn-info"><i class="fas fa-phone"></i> {{ $t('nav_info_contact') }}</a>
-      <a href="#location" class="btn btn-info"><i class="fa fa-route"></i> {{ $t('nav_location') }}</a>
+      <a href="#contact" v-scroll-to="'#contact'" class="btn btn-info"><i class="fas fa-phone"></i> {{ $t('nav_info_contact') }}</a>
+      <a href="#location" v-scroll-to="'#location'"  class="btn btn-info"><i class="fa fa-route"></i> {{ $t('nav_location') }}</a>
     </p>
     </div>
   </section>

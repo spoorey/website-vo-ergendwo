@@ -9,11 +9,11 @@
     <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
-        <b-nav-item href="#about">{{ $t('nav_about')   }}</b-nav-item>
-        <b-nav-item href="#participant_info">{{ $t('nav_info_participant') }}</b-nav-item>
-        <b-nav-item href="#helper_info">{{ $t('nav_info_helper') }}</b-nav-item>
-        <b-nav-item href="#location">{{ $t('nav_location') }}</b-nav-item>
-        <b-nav-item href="#contact">{{ $t('nav_info_contact') }}</b-nav-item>
+        <b-nav-item v-scroll-to="'#about'" href="#about">{{ $t('nav_about')   }}</b-nav-item>
+        <b-nav-item v-scroll-to="'#participant_info'" href="#participant_info">{{ $t('nav_info_participant') }}</b-nav-item>
+        <b-nav-item v-scroll-to="'#helper_info'" href="#helper_info">{{ $t('nav_info_helper') }}</b-nav-item>
+        <b-nav-item v-scroll-to="'#location'" href="#location">{{ $t('nav_location') }}</b-nav-item>
+        <b-nav-item v-scroll-to="'#contact'" href="#contact">{{ $t('nav_info_contact') }}</b-nav-item>
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto d-lg-inline d-none">

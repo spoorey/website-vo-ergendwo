@@ -25,8 +25,8 @@
         </p>
       </b-col>
       <b-col cols="12" md="4">
-        <a href="#contact" class="btn btn-info btn-lg"><i class="fas fa-phone"></i> {{ $t('nav_info_contact') }} </a>
-        <a href="#location" class="btn btn-info btn-lg"><i class="fa fa-route"></i> {{ $t('nav_location') }}</a>
+        <a href="#contact" v-scroll-to="'#contact'"  class="btn btn-info btn-lg"><i class="fas fa-phone"></i> {{ $t('nav_info_contact') }} </a>
+        <a href="#location" v-scroll-to="'#location'"  class="btn btn-info btn-lg"><i class="fa fa-route"></i> {{ $t('nav_location') }}</a>
       </b-col>
     </b-row>
     </div>
