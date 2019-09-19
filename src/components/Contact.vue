@@ -1,5 +1,6 @@
 <template>
-  <section class="container">
+  <section>
+    <div  class="container">
     <span id="contact" class="nav-anchor"></span>
     <h2 class="text-center">
       {{ $t('contact_title') }}
@@ -27,10 +28,11 @@
         </a>
       </b-col>
       <b-col cols="12" sm="4">
-        <strong>{{ $t('contact_address') }}</strong>:<br>
+        <strong>{{ $t('contact_address') }}:</strong><br>
         Kontaktadresse von Galli? Flo?
       </b-col>
     </b-row>
+    </div>
   </section>
 </template>
 

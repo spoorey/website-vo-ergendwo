@@ -1,5 +1,6 @@
 <template>
-  <section class="container">
+  <section>
+    <div  class="container">
     <span id="location" class="nav-anchor"></span>
     <h2 class="text-center">
       {{ $t('location_title') }}
@@ -42,6 +43,7 @@
         </gmap-map>
       </b-col>
     </b-row>
+  </div>
   </section>
 </template>
 

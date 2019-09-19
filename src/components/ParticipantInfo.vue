@@ -1,5 +1,6 @@
 <template>
-  <section class="container">
+  <section>
+    <div  class="container">
     <span id="participant_info" class="nav-anchor"></span>
     <h2 class="text-center">{{ $t('participant_info_title') }}</h2>
     <p>{{ $t('participant_info_text') }}</p>
@@ -7,6 +8,7 @@
       <a href="#contact" class="btn btn-info"><i class="fas fa-phone"></i> {{ $t('nav_info_contact') }}</a>
       <a href="#location" class="btn btn-info"><i class="fa fa-route"></i> {{ $t('nav_location') }}</a>
     </p>
+    </div>
   </section>
 </template>
 

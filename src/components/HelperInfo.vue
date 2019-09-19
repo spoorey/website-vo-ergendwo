@@ -1,10 +1,14 @@
 <template>
-  <section class="container">
+  <section>
+    <div  class="container">
     <span id="helper_info" class="nav-anchor"></span>
     <h2 class="text-center">Mitmachen</h2>
     <p class="lead text-center"><strong>Du willst Geflüchteten helfen?</strong><strong class="text-danger"> Wir suchen dich!</strong></p>
     <!--<img src="../assets/helper-1.jpeg" class="img-fluid float-left d-inline d-lg-none">-->
     <p>
+      <img src="https://place-hold.it/1920x1080" class="img img-fluid rounded m-2 d-none d-lg-block" style="max-width: 33%; float: left;">
+      <img src="https://place-hold.it/1920x1080" class="img img-fluid rounded m-2 d-none d-md-block d-lg-none" style="max-width: 50%; float: left;">
+      <img src="https://place-hold.it/1920x1080" class="img img-fluid rounded d-block d-md-none" style="float: left;">
       Wir organisieren jeden Dienstag- und Donnerstagabend einen Deutschtreff im Tommasini Lenzburg, bei dem Geflüchtete und Einheimische zusammen lernen, spielen und Freundschaften knüpfen können. Dabei steht vor allem eine lockere Atmosphäre im Vordergrund, in der es nicht in erster Linie um Schule geht, sondern wo man sich gegenseitig unterstützen, voneinander lernen und zusammen eine gute Zeit haben kann.
       <br>
       Wenn DU also daran interessiert bist, dich unverbindlich ehrenamtlich zu betätigen und dabei viele neue Gesichter kennen zu lernen, dann bist du bei uns genau richtig. Komm doch einfach mal vorbei oder melde dich bei uns via FB-Nachricht oder E-Mail!
@@ -25,7 +29,7 @@
         <a href="#location" class="btn btn-info btn-lg"><i class="fa fa-route"></i> {{ $t('nav_location') }}</a>
       </b-col>
     </b-row>
-
+    </div>
   </section>
 </template>
 
@@ -40,9 +44,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-.helper-image {
-  max-width: 100px;
+section p {
+  overflow: hidden;
 }
+
 
 a.btn {
   margin-bottom: 5px;

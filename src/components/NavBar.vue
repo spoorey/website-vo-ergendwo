@@ -10,7 +10,7 @@
     <b-collapse id="nav-collapse" is-nav>
       <b-navbar-nav>
         <b-nav-item href="#about">{{ $t('nav_about')   }}</b-nav-item>
-        <b-nav-item href="#info_participant">{{ $t('nav_info_participant') }}</b-nav-item>
+        <b-nav-item href="#participant_info">{{ $t('nav_info_participant') }}</b-nav-item>
         <b-nav-item href="#helper_info">{{ $t('nav_info_helper') }}</b-nav-item>
         <b-nav-item href="#location">{{ $t('nav_location') }}</b-nav-item>
         <b-nav-item href="#contact">{{ $t('nav_info_contact') }}</b-nav-item>
