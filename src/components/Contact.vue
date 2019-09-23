@@ -32,15 +32,100 @@
         Kontaktadresse von Galli? Flo?
       </b-col>
     </b-row>
+    <b-row>
+      <b-col cols="12">
+        <b-form @submit="onSubmit">
+          <b-row>
+            <b-col cols="12" md="4">
+              <b-form-group
+                id="input-group-email"
+                :label="$t('contact_form_email')"
+                label-for="input-email"
+              >
+                <b-form-input
+                  id="input-email"
+                  v-model="form.email"
+                  type="email"
+                ></b-form-input>
+              </b-form-group>
+          </b-col>
+          <b-col cols="12" md="4">
+            <b-form-group
+              id="input-group-phone"
+              :label="$t('contact_form_phone')"
+              label-for="input-phone"
+            >
+              <b-form-input
+                id="input-phone"
+                v-model="form.phone"
+                type="text"
+              ></b-form-input>
+            </b-form-group>
+          </b-col>
+          <b-col cols="12" md="4">
+            <b-form-group id="input-group-name"
+              :label="$t('contact_form_name')" label-for="input-name">
+              <b-form-input
+                id="input-name"
+                v-model="form.name"
+                required
+              ></b-form-input>
+            </b-form-group>
+          </b-col>
+          </b-row>
+          <b-form-group id="input-group-message"
+            :label="$t('contact_form_message')" label-for="input-message">
+            <b-form-textarea
+              id="input-message"
+              v-model="form.message"
+              required
+            ></b-form-textarea>
+          </b-form-group>
+          <b-button type="submit" variant="primary">{{ $t('contact_form_submit') }}</b-button>
+        </b-form>
+        <div class="alert alert-success mt-2" v-if="showSuccessText">{{ $t('contact_form_success') }}</div>
+        -->
+      </b-col>
+    </b-row>
     </div>
   </section>
 </template>
 
 <script>
+import axios from 'axios'
+
 export default {
   name: 'contact',
   data () {
-    return {}
+    return {
+      form: {
+        email: '',
+        phone: '',
+        name: '',
+        message: ''
+      },
+      showSuccessText: false
+    }
+  },
+  methods: {
+    onSubmit (evt) {
+      evt.preventDefault()
+
+      var url = 'https://hooks.slack.com/services/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'
+      var payloadText = '*Neue Anfrage via Kontaktformular von "' + this.form.name + '":*' + '\n' +
+        '*Telefon:* ' + this.form.phone + '\n' +
+        ' *Email:* ' + this.form.email + '\n\n' + this.form.message
+
+      axios.post(url, JSON.stringify({text: payloadText}))
+        .then(response => {
+          this.showSuccessText = true
+        })
+        .catch(e => {
+          console.error(e)
+        })
+
+      alert(JSON.stringify(this.form))
+    }
   }
 }
 </script>
