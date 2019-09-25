@@ -1,32 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Deutschtreff: vo Ergendwo</title>
-    <link rel="icon" type="image/png" sizes="32x32" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="<%= htmlWebpackPlugin.files.publicPath %>static/img/icons/favicon32.png">
-    <!--[if IE]><link rel="shortcut icon" href="/static/img/icons/favicon.ico"><![endif]-->
-    <!-- Add to home screen for Android and modern mobile browsers -->
-    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>static/manifest.json">
-    <meta name="theme-color" content="#c91817">
-
-    <!-- Add to home screen for Safari on iOS -->
-    <!-- Add to home screen for Windows -->
-    <% for (var chunk of webpack.chunks) {
-        for (var file of chunk.files) {
-          if (file.match(/\.(js|css)$/)) { %>
-    <link rel="<%= chunk.initial?'preload':'prefetch' %>" href="<%= htmlWebpackPlugin.files.publicPath + file %>" as="<%= file.match(/\.css$/)?'style':'script' %>"><% }}} %>
-    <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/de_DE/sdk.js#xfbml=1&version=v4.0"></script> -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>vue-pwa</title>
   </head>
   <body>
-    <noscript>
-      Um diese Webseite zu verwenden, benötigen Sie JavaScript. Hier finden Sie die <a href="https://www.enable-javascript.com/de/">Anleitung wie Sie JavaScript in Ihrem Browser einschalten</a>.
-    </noscript>
     <div id="app"></div>
-    <!-- Todo: only include in production -->
-    <%= htmlWebpackPlugin.options.serviceWorkerLoader %>
     <!-- built files will be auto injected -->
   </body>
 </html>
