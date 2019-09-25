@@ -32,9 +32,13 @@
         Kontaktadresse von Galli? Flo?
       </b-col>
     </b-row>
+    <hr>
     <b-row>
       <b-col cols="12">
-        <b-form @submit="onSubmit">
+        <p class="">
+          {{ $t('contact_form_desc') }}
+        </p>
+        <b-form @submit="onSubmit" v-if="!showSuccessText">
           <b-row>
             <b-col cols="12" md="4">
               <b-form-group
@@ -78,13 +82,13 @@
             <b-form-textarea
               id="input-message"
               v-model="form.message"
+              rows="6"
               required
             ></b-form-textarea>
           </b-form-group>
           <b-button type="submit" variant="primary">{{ $t('contact_form_submit') }}</b-button>
         </b-form>
         <div class="alert alert-success mt-2" v-if="showSuccessText">{{ $t('contact_form_success') }}</div>
-        -->
       </b-col>
     </b-row>
     </div>
@@ -123,8 +127,6 @@ export default {
         .catch(e => {
           console.error(e)
         })
-
-      alert(JSON.stringify(this.form))
     }
   }
 }
