@@ -86,7 +86,7 @@
               required
             ></b-form-textarea>
           </b-form-group>
-          <b-button type="submit" variant="primary">{{ $t('contact_form_submit') }}</b-button>
+          <b-button type="submit" variant="primary" :disabled="!formValid" >{{ $t('contact_form_submit') }}</b-button>
         </b-form>
         <div class="alert alert-success mt-2" v-if="showSuccessText">{{ $t('contact_form_success') }}</div>
       </b-col>
@@ -100,6 +100,11 @@ import axios from 'axios'
 
 export default {
   name: 'contact',
+  computed: {
+    formValid: function () {
+      return (this.form.email || this.form.phone) && this.form.name && this.form.message
+    }
+  },
   data () {
     return {
       form: {
