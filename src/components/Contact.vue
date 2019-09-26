@@ -62,7 +62,7 @@
               <b-form-input
                 id="input-phone"
                 v-model="form.phone"
-                type="text"
+                type="tel"
               ></b-form-input>
             </b-form-group>
           </b-col>
