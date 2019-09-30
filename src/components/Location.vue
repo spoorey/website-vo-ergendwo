@@ -31,6 +31,7 @@
         <b>{{ $t('location_note') }}:</b> {{ $t('location_note_discount') }}
       </b-col>
       <b-col cols="12" lg="6">
+        <!--
           <gmap-map
           :center="center"
           :zoom="15"
@@ -41,6 +42,7 @@
             @click="center=markerPosition"
           ></gmap-marker>
         </gmap-map>
+      -->
       </b-col>
     </b-row>
   </div>
@@ -48,18 +50,20 @@
 </template>
 
 <script>
-import * as VueGoogleMaps from 'vue2-google-maps'
+// import * as VueGoogleMaps from 'vue2-google-maps'
 import Vue from 'vue'
 
+/*
 Vue.use(VueGoogleMaps, {
   load: {
     key: 'AIzaSyAl9t7gMtd6opV76ZTpYQ4degBu0CZ-WrE'
   }
 })
+*/
 
 export default {
   name: 'about',
-  components: {VueGoogleMaps},
+  // components: {VueGoogleMaps},
   data () {
     var tommLocation = { lat: 47.383298, lng: 8.175436 }
     var mapCenter = { lat: 47.386172, lng: 8.169896 }

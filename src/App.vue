@@ -19,7 +19,6 @@ import ParticipantInfo from './components/ParticipantInfo'
 import HelperInfo from './components/HelperInfo'
 import Location from './components/Location'
 import AppFooter from './components/AppFooter'
-import LoremIpsum from './components/LoremIpsum'
 import Contact from './components/Contact'
 import Polyglot from 'vue-polyglot'
 import langDe from './assets/i18n/de.json'
@@ -44,6 +43,6 @@ Vue.locales({
 // */
 export default {
   name: 'app',
-  components: {NavBar, LoremIpsum, About, Location, Polyglot, Vue, Contact, HelperInfo, ParticipantInfo, AppFooter}
+  components: {NavBar, About, Location, Polyglot, Vue, Contact, HelperInfo, ParticipantInfo, AppFooter}
 }
 </script>
