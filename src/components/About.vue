@@ -25,7 +25,7 @@ export default {
   text-align: center;
   padding: 5%;
   display: block;
-  background-image: url("../assets/about.jpg");
+  background-image: url("../assets/deutschtreff-2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
