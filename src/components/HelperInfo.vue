@@ -26,7 +26,7 @@
       </b-col>
       <b-col cols="12" md="4">
         <a href="#contact" v-scroll-to="'#contact'"  class="btn btn-info btn-lg"><i class="fas fa-phone"></i> {{ t('nav_info_contact') }} </a>
-        <a href="#location" v-scroll-to="'#location'"  class="btn btn-info btn-lg"><i class="fa fa-route"></i> {{ t('nav_location') }}</a>
+        <a href="#location" v-scroll-to="'#location'"  class="btn btn-info btn-lg"><i class="fa fa-route"></i> {{ t('nav_location') }} </a>
         <br>
         <a href="https://chat.whatsapp.com/DugWnrcoqY46CThJOcGuE0" target="_blank" class="btn btn-success"><i class="fab fa-whatsapp"></i> Whatsapp-Gruppe für Helfende beitreten</a>
       </b-col>
