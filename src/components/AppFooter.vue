@@ -2,7 +2,7 @@
   <footer class="bg-dark text-white vertical-center">
     <b-row>
     <b-col cols="8" sm="6">
-      <strong>{{ $t('footer_title') }}</strong>
+      <strong>{{ t('footer_title') }}</strong>
       <ul class="footer-list">
         <li><a href="https://www.contakt-citoyennete.ch/" target="_blank">conTAKT-citoyenneté</a></li>
         <li><a href="https://www.tomm.ch/" target="_blank">Tommasini</a></li>

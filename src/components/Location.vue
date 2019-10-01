@@ -3,14 +3,14 @@
     <div  class="container">
     <span id="location" class="nav-anchor"></span>
     <h2 class="text-center">
-      {{ $t('location_title') }}
+      {{ t('location_title') }}
     </h2>
     <p>
-      {{ $t('location_text') }}
+      {{ t('location_text') }}
     </p>
     <b-row class="text-left">
       <b-col cols="12" sm="6" lg="3">
-        <h4>{{ $t('location_address') }}</h4>
+        <h4>{{ t('location_address') }}</h4>
         <p>
           <b>Tommasini</b><br>
           Seonerstrasse 23<br>
@@ -19,16 +19,16 @@
         <p>
           <a target="_blank" href="https://www.google.com/maps/place/Tommasini+Lenzburg/@47.3832605,8.1733335,17z/data=!3m1!4b1!4m5!3m4!1s0x47901611ff5264a1:0x362b51fb25fd6495!8m2!3d47.3832605!4d8.1755222">
             <i class="fa fa-map-marked-alt"></i>
-            {{ $t('location_maps') }}
+            {{ t('location_maps') }}
           </a>
         </p>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <h4>{{ $t('location_public_transport') }}</h4>
-        <b>{{ $t('location_from_lb') }}</b><br>
-        {{ $t('location_bus_line') }}<br>
-        {{ $t('location_bus_stop') }}<br><br>
-        <b>{{ $t('location_note') }}:</b> {{ $t('location_note_discount') }}
+        <h4>{{ t('location_public_transport') }}</h4>
+        <b>{{ t('location_from_lb') }}</b><br>
+        {{ t('location_bus_line') }}<br>
+        {{ t('location_bus_stop') }}<br><br>
+        <b>{{ t('location_note') }}:</b> {{ t('location_note_discount') }}
       </b-col>
       <b-col cols="12" lg="6">
         <!--

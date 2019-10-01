@@ -3,11 +3,11 @@
     <div  class="container">
     <span id="contact" class="nav-anchor"></span>
     <h2 class="text-center">
-      {{ $t('contact_title') }}
+      {{ t('contact_title') }}
     </h2>
     <b-row>
       <b-col cols="6" sm="4">
-        <strong>{{ $t('contact_requests') }}:</strong><br>
+        <strong>{{ t('contact_requests') }}:</strong><br>
         Marino Galli<br>
         +41 78 856 70 07<br>
         <a href="mailto:info@vo-ergendwo.ch">info@vo-ergendwo.ch</a>
@@ -16,7 +16,7 @@
         <!--<div id="fb-root"></div>-->
         <!--<div class="fb-page" data-href="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/">Deutschtreff: vo ergendwo</a></blockquote></div>
         -->
-        <strong>{{ $t('contact_social') }}:</strong><br>
+        <strong>{{ t('contact_social') }}:</strong><br>
         <a href="https://www.instagram.com/voergendwo/" target="_blank" class="">
           <i class="fab fa-md fa-instagram"></i>
           Instagram
@@ -28,7 +28,7 @@
         </a>
       </b-col>
       <b-col cols="12" sm="4">
-        <strong>{{ $t('contact_address') }}:</strong><br>
+        <strong>{{ t('contact_address') }}:</strong><br>
         Kontaktadresse von Galli? Flo?
       </b-col>
     </b-row>
@@ -36,14 +36,14 @@
     <b-row>
       <b-col cols="12">
         <p class="">
-          {{ $t('contact_form_desc') }}
+          {{ t('contact_form_desc') }}
         </p>
         <b-form @submit="onSubmit" v-if="!showSuccessText">
           <b-row>
             <b-col cols="12" md="4">
               <b-form-group
                 id="input-group-email"
-                :label="$t('contact_form_email')"
+                :label="t('contact_form_email')"
                 label-for="input-email"
               >
                 <b-form-input
@@ -56,7 +56,7 @@
           <b-col cols="12" md="4">
             <b-form-group
               id="input-group-phone"
-              :label="$t('contact_form_phone')"
+              :label="t('contact_form_phone')"
               label-for="input-phone"
             >
               <b-form-input
@@ -68,7 +68,7 @@
           </b-col>
           <b-col cols="12" md="4">
             <b-form-group id="input-group-name"
-              :label="$t('contact_form_name')" label-for="input-name">
+              :label="t('contact_form_name')" label-for="input-name">
               <b-form-input
                 id="input-name"
                 v-model="form.name"
@@ -78,7 +78,7 @@
           </b-col>
           </b-row>
           <b-form-group id="input-group-message"
-            :label="$t('contact_form_message')" label-for="input-message">
+            :label="t('contact_form_message')" label-for="input-message">
             <b-form-textarea
               id="input-message"
               v-model="form.message"
@@ -86,9 +86,9 @@
               required
             ></b-form-textarea>
           </b-form-group>
-          <b-button type="submit" variant="primary" :disabled="!formValid" >{{ $t('contact_form_submit') }}</b-button>
+          <b-button type="submit" variant="primary" :disabled="!formValid" >{{ t('contact_form_submit') }}</b-button>
         </b-form>
-        <div class="alert alert-success mt-2" v-if="showSuccessText">{{ $t('contact_form_success') }}</div>
+        <div class="alert alert-success mt-2" v-if="showSuccessText">{{ t('contact_form_success') }}</div>
       </b-col>
     </b-row>
     </div>
