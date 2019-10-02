@@ -12,7 +12,7 @@
       <b-col cols="12" sm="6" lg="3">
         <h4>{{ t('location_address') }}</h4>
         <p>
-          <b>Tommasini</b><br>
+          <b>Kulturhaus Tommasini</b><br>
           Seonerstrasse 23<br>
           5600 Lenzburg<br>
         </p>

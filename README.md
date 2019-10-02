@@ -5,6 +5,8 @@
 npm install
 ```
 
+Copy `config\local.json.dist` to `config\local.json` and add your slack webhook url.
+
 ### Compiles and hot-reloads for development
 ```
 npm run serve

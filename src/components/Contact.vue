@@ -29,7 +29,10 @@
       </b-col>
       <b-col cols="12" sm="4">
         <strong>{{ t('contact_address') }}:</strong><br>
-        Kontaktadresse von Galli? Flo?
+        Verein "Vo Ergendwo"<br>
+        Florian Kroneberger<br>
+        Lindenplatz 4<br>
+        5603 Staufen
       </b-col>
     </b-row>
     <hr>
@@ -97,6 +100,7 @@
 
 <script>
 import axios from 'axios'
+import config from '../../config/local.json'
 
 export default {
   name: 'contact',
@@ -120,7 +124,7 @@ export default {
     onSubmit (evt) {
       evt.preventDefault()
 
-      var url = 'https://hooks.slack.com/services/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'
+      var url = config.slack_hook_url;
       var payloadText = '*Neue Anfrage via Kontaktformular von "' + this.form.name + '":*' + '\n' +
         '*Telefon:* ' + this.form.phone + '\n' +
         ' *Email:* ' + this.form.email + '\n\n' + this.form.message
