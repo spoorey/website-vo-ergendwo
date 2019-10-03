@@ -31,16 +31,11 @@
         <b>{{ t('location_note') }}:</b> {{ t('location_note_discount') }}
       </b-col>
       <b-col cols="12" lg="6">
-          <gmap-map
-          :center="center"
-          :zoom="15"
-          style="width:100%;  height: 400px;"
-          >
-          <gmap-marker
-            :position="markerPosition"
-            @click="center=markerPosition"
-          ></gmap-marker>
-        </gmap-map>
+        <iframe
+        class="osm"
+        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=8.16856670418929%2C47.38080953346451%2C8.182363987361898%2C47.38565488973912&amp;layer=mapnik&amp;marker=47.383232267270344%2C8.175465345775592">
+        </iframe>
       </b-col>
     </b-row>
   </div>
@@ -48,18 +43,10 @@
 </template>
 
 <script>
-import * as VueGoogleMaps from 'vue2-google-maps'
 import Vue from 'vue'
-
-Vue.use(VueGoogleMaps, {
-  load: {
-    key: 'AIzaSyAl9t7gMtd6opV76ZTpYQ4degBu0CZ-WrE'
-  }
-})
 
 export default {
   name: 'about',
-  components: {VueGoogleMaps},
   data () {
     var tommLocation = { lat: 47.383298, lng: 8.175436 }
     var mapCenter = { lat: 47.386172, lng: 8.169896 }
@@ -78,5 +65,11 @@ export default {
 <style>
 .row > div {
   margin-bottom: 5px;
+}
+
+iframe.osm {
+  border: 1px solid #ccc;
+  width: 100%;
+  height: 260px;
 }
 </style>
