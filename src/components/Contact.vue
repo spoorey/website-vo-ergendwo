@@ -44,6 +44,16 @@
         <b-form @submit="onSubmit" v-if="!showSuccessText">
           <b-row>
             <b-col cols="12" md="4">
+              <b-form-group id="input-group-name"
+                :label="t('contact_form_name')" label-for="input-name">
+                <b-form-input
+                  id="input-name"
+                  v-model="form.name"
+                  required
+                ></b-form-input>
+              </b-form-group>
+            </b-col>
+            <b-col cols="12" md="4">
               <b-form-group
                 id="input-group-email"
                 :label="t('contact_form_email')"
@@ -66,16 +76,6 @@
                 id="input-phone"
                 v-model="form.phone"
                 type="tel"
-              ></b-form-input>
-            </b-form-group>
-          </b-col>
-          <b-col cols="12" md="4">
-            <b-form-group id="input-group-name"
-              :label="t('contact_form_name')" label-for="input-name">
-              <b-form-input
-                id="input-name"
-                v-model="form.name"
-                required
               ></b-form-input>
             </b-form-group>
           </b-col>
