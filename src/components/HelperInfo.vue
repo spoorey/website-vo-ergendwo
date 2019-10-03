@@ -12,7 +12,7 @@
       Falls Dir das zu wenig ist, kannst Du auch Helfer*in oder Gönner*in Vo Ergendwo werden.
       </p>
       <div>
-        <b-button v-b-toggle.collapse-philosophy variant="primary">
+        <b-button v-b-toggle.collapse-philosophy variant="info">
           <i class="fa fa-plus when-closed"></i>
           <i class="fa fa-minus when-opened"></i>
           Unsere Philosophie
