@@ -17,7 +17,10 @@
           5600 Lenzburg<br>
         </p>
         <p>
-          <a target="_blank" href="https://www.google.com/maps/place/Tommasini+Lenzburg/@47.3832605,8.1733335,17z/data=!3m1!4b1!4m5!3m4!1s0x47901611ff5264a1:0x362b51fb25fd6495!8m2!3d47.3832605!4d8.1755222">
+          <a
+          class="btn btn-info"
+          target="_blank"
+          href="https://www.google.com/maps/dir//Tommasini+Lenzburg,+Seonerstrasse+23,+5600+Lenzburg/@47.3832605,8.1733335,17z/">
             <i class="fa fa-map-marked-alt"></i>
             {{ t('location_maps') }}
           </a>
