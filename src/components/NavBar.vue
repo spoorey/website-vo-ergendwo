@@ -17,7 +17,8 @@
       </b-navbar-nav>
 
       <b-navbar-nav class="ml-auto d-lg-inline d-none">
-        <b-nav-item-dropdown right><template slot="button-content"><i class="fas fa-language fa-lg"></i> {{ t('nav_language') }}</template>
+        <b-nav-item-dropdown right>
+          <template slot="button-content"><i class="fas fa-language fa-lg"></i> {{ t('nav_language') }}</template>
           <b-dropdown-item v-for="(language, key) in languages" v-on:click="showAppIn(key)" v-bind:key="key">{{ language }}</b-dropdown-item>
         </b-nav-item-dropdown>
       </b-navbar-nav>
@@ -38,8 +39,10 @@ export default {
       languages: {
         de: 'Deutsch',
         en: 'English',
+        /*
         fr: 'Français',
         tg: 'Tigrinya?'
+        */
       }
     }
   }

@@ -34,8 +34,10 @@ Vue.use(VueScrollTo, {duration: 250})
 Vue.locales({
   de: langDe,
   en: langEn,
+  /*
   tg: langTg,
   fr: langFr
+  */
 })
 
 export default {

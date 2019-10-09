@@ -3,6 +3,9 @@
     <div  class="container">
     <span id="helper_info" class="nav-anchor"></span>
     <h2 class="text-center">Mitmachen</h2>
+    <div class="alert alert-ve text-center" v-if="this.getLang != 'de'">
+      {{ t('helper_only_german') }}
+    </div>
     <p class="lead text-center"><strong>Du willst Geflüchteten helfen?</strong><strong class="text-ve"> Wir suchen dich!</strong></p>
     <!--<img src="../assets/helper-1.jpeg" class="img-fluid float-left d-inline d-lg-none">-->
     <div class="text-center">
@@ -72,7 +75,7 @@
             <i class="fa fa-route"></i> {{ t('nav_location') }}
           </a>
           <a href="https://chat.whatsapp.com/DugWnrcoqY46CThJOcGuE0" target="_blank" class="btn btn-success">
-            <i class="fab fa-whatsapp"></i> Whatsapp-Gruppe für Helfende beitreten
+            <i class="fab fa-whatsapp"></i> WhatsApp-Gruppe für Helfende
           </a>
         </div>
       </div>
@@ -111,6 +114,11 @@ export default {
   data () {
     return {
       publicPath: process.env.BASE_URL
+    }
+  },
+  computed: {
+    getLang: function() {
+      return this.$translate.lang;
     }
   }
 }

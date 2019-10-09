@@ -10,7 +10,7 @@
         <strong>{{ t('contact_requests') }}:</strong><br>
         Marino Galli<br>
         +41 78 856 70 07<br>
-        <a href="mailto:info@vo-ergendwo.ch" class="text-ve">info@vo-ergendwo.ch</a>
+        <a href="mailto:info@voergendwo.ch" class="text-ve">info@voergendwo.ch</a>
       </b-col>
       <b-col cols="6" sm="4">
         <!--<div id="fb-root"></div>-->

@@ -1,6 +1,6 @@
 {
     "about_slogan": "Wir sind alle \"vo ergendwo\"",
-    "nav_language": "Sprache wählen",
+    "nav_language": "Sprache",
     "nav_about": "Über uns",
     "nav_info_participant": "Infos für Teilnehmende",
     "nav_info_helper": "Mitmachen",
@@ -24,13 +24,14 @@
     "contact_social": "Soziale Medien",
     "location_maps": "Auf Google Maps",
     "contact_address": "Für schriftliche Anfragen",
-    "participant_info_whatsapp": "Whatsapp-Gruppe für Teilnehmende beitreten",
+    "participant_info_whatsapp": "WhatsApp-Gruppe für Teilnehmende",
     "contact_form": "Kontaktformular",
-    "contact_form_desc": "Schicke uns eine Nachricht mit dem Kontaktformular. Gib deine E-Mail Adresse oder deine Telefonnummer an, und wir kontaktieren dich.",
+    "contact_form_desc": "Du kannst uns eine Nachricht mit dem Kontaktformular senden. Gib deine E-Mail Adresse oder deine Telefonnummer an, und wir kontaktieren dich.",
     "contact_form_email": "E-Mail Adresse",
     "contact_form_phone": "Telefon-Nummer",
     "contact_form_name": "Name",
     "contact_form_message": "Nachricht",
     "contact_form_submit": "Absenden",
-    "contact_form_success": "Deine Nachricht wurde versendet! Wir melden uns per Telefon oder E-Mail bei dir!"
+    "contact_form_success": "Deine Nachricht wurde versendet. Wir melden uns per Telefon oder E-Mail bei dir.",
+    "helper_only_german": ""
 }
