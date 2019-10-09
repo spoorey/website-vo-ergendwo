@@ -31,35 +31,22 @@ import VueTranslate from 'vue-translate-plugin'
 Vue.use(VueTranslate)
 Vue.use(VueScrollTo, {duration: 250})
 
-/*
-Vue.use(Polyglot, {
-  defaultLanguage: 'de',
-  languagesAvailable: ['de', 'tg', 'en', 'fr']
-})
-
-//*/
 Vue.locales({
   de: langDe,
   en: langEn,
   tg: langTg,
   fr: langFr
 })
-// */
+
 export default {
   name: 'app',
   mounted() {
-      // Define what language you want to use.
-      // This can be called in something like a header with a language selector menu
-      // Or any other case, doesn't need to be called in all components, but
-      // at least in one, so it sets the global language of the plugin
-      
       var userLang = navigator.language || navigator.userLanguage;
       userLang = userLang.substr(0,2);
       this.$translate.setLang(userLang);
     },
 
   components: {
-    Vue, 
     NavBar,
     About,
     Location,

@@ -18,7 +18,7 @@
         </p>
         <p>
           <a
-          class="btn btn-info"
+          class="btn btn-ve"
           target="_blank"
           href="https://www.google.com/maps/dir//Tommasini+Lenzburg,+Seonerstrasse+23,+5600+Lenzburg/@47.3832605,8.1733335,17z/">
             <i class="fa fa-map-marked-alt"></i>
@@ -46,8 +46,6 @@
 </template>
 
 <script>
-import Vue from 'vue'
-
 export default {
   name: 'about',
   data () {

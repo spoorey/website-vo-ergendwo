@@ -44,14 +44,16 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style lang="less">
 footer {
   padding: 10px 10px;
   overflow: hidden;
 }
 
 .footer-list a {
-  color: #fff;
+  color: #ffffff;
+  &:hover {
+    color: #ff2020;
+  }
 }
 </style>

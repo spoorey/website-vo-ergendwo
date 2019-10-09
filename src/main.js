@@ -4,7 +4,7 @@ import App from './App.vue'
 import BootstrapVue from 'bootstrap-vue'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
-import './style/global.css'
+import './style/global.less'
 import '@fortawesome/fontawesome-free/css/all.css'
 
 Vue.use(BootstrapVue)
