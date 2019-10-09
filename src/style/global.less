@@ -1,4 +1,4 @@
-@primary: #f33535;
+@primary: #ca2d2c;
 @grey: #ccc;
 .btn-ve {
   background-color: @primary;
@@ -10,6 +10,20 @@
     border-color: darken(@primary, 15%);
   }
 }
+
+/*
+nav.bg-ve {
+  background-color: @primary;
+  color: #fff;
+  .navbar-nav .nav-link {
+    color: #fff;
+  }
+  .navbar-toggler-icon {
+    border-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+}
+*/
 
 .alert-ve {
   color: @primary;
@@ -27,7 +41,6 @@
 }
 
 .title-ve {
-  border-bottom: 1px solid @primary;
   h3& {
     padding-bottom: 2px;
   }
@@ -40,13 +53,17 @@
 section  {
   margin-top: 30px;
   margin-bottom: 30px;
-  h2 {
-    border-bottom: 1px solid  @primary;
-    padding-bottom: 10px;
-    margin-bottom: 15px;
-  }
 }
 
+h2 {
+  border-bottom: 2px solid  @primary;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+h3, h4 {
+  border-bottom: 1px solid @primary;
+}
 
 .nav-anchor {
   display: block;
