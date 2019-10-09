@@ -1,6 +1,6 @@
 <template>
   <b-navbar toggleable="lg" type="dark" variant="dark" fixed="top">
-    <b-navbar-brand href="#"><img src="../assets/logo_simple_white.png" style="max-height: 20px;"></b-navbar-brand>
+    <b-navbar-brand href="#"><img src="../assets/logo-small.png" style="max-height: 20px;"></b-navbar-brand>
     <b-navbar-nav class="mobile-lang ml-auto float-right d-inline-block d-lg-none">
         <b-nav-item-dropdown right><template slot="button-content"><i class="fas fa-language fa-lg"></i> {{ t('nav_language') }}</template>
           <b-dropdown-item v-for="(language, key) in languages" v-on:click="showAppIn(key)" v-bind:key="key">{{ language }}</b-dropdown-item>
