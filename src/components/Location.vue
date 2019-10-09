@@ -37,7 +37,8 @@
         <iframe
         class="osm"
         frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-        src="https://www.openstreetmap.org/export/embed.html?bbox=8.16856670418929%2C47.38080953346451%2C8.182363987361898%2C47.38565488973912&amp;layer=mapnik&amp;marker=47.383232267270344%2C8.175465345775592">
+        src="https://www.openstreetmap.org/export/embed.html?bbox=8.165326595044462%2C47.37834223917559%2C8.185410976147978%2C47.3880329598965&amp;layer=mapnik&amp;marker=47.38318782221019%2C8.17536878559622"
+        >
         </iframe>
       </b-col>
     </b-row>
