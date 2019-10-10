@@ -129,6 +129,17 @@ export default {
         '*Telefon:* ' + this.form.phone + '\n' +
         ' *Email:* ' + this.form.email + '\n\n' + this.form.message
 
+      if ('' != this.form.email) {
+        var text =
+        'Hallo ' + this.form.name +
+        '\nDu hast uns über das Kontaktformular von voergendwo.ch eine Nachricht geschickt.\n\n\n';
+        text = encodeURIComponent(text);
+        var mailto =
+        this.form.email + '?body='
+        + text + '&Subject='
+        + encodeURIComponent('Deine Anfrage über voergendwo.ch');
+        payloadText += '\n<mailto:' + mailto + '|E-Mail Beantworten>';
+      }
       axios.post(url, JSON.stringify({text: payloadText}))
         .then(response => {
           this.showSuccessText = true
