@@ -10,26 +10,7 @@
       </ul>
     </b-col>
     <b-col cols="4" sm="6" class="text-right">
-      Deutschtreff: vo Ergendwo {{ new Date().getFullYear() }}
-      <!--
-      <br>
-      <div class="text-right">
-      <a href="https://www.instagram.com/voergendwo/" target="_blank" class="text-white">
-        Instagram
-        <i class="fab fa-md fa-instagram"></i>
-      </a>
-      <br>
-      <a href="https://www.facebook.com/Deutschtreff-vo-ergendwo-352137405242164" target="_blank" class="text-white">
-        Facebook
-        <i class="fab fa-facebook fa-md"></i>
-      </a>
-      <br>
-      <a href="mailto:info@vo-ergendwo.ch" class="text-white">
-        info@vo-ergendwo.ch
-        <i class="fa fa-envelope fa-md"></i>
-      </a>
-      </div>
-      -->
+      Deutschtreff: Vo Ergendwo {{ new Date().getFullYear() }}
     </b-col>
     </b-row>
   </footer>

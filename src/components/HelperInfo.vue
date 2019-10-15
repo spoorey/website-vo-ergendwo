@@ -103,7 +103,7 @@
           Hypothekarbank Lenzburg AG<br>
           5600 Lenzburg<br>
 
-          Deutschtreff vo Ergendwo<br>
+          Deutschtreff Vo Ergendwo<br>
           Gartenstrasse 10<br>
           5600 Lenzburg<br>
 

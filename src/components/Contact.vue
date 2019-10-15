@@ -13,9 +13,6 @@
         <a href="mailto:info@voergendwo.ch" class="text-ve">info@voergendwo.ch</a>
       </b-col>
       <b-col cols="6" sm="4">
-        <!--<div id="fb-root"></div>-->
-        <!--<div class="fb-page" data-href="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/" data-tabs="timeline" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/pages/category/Nonprofit-Organization/Deutschtreff-vo-ergendwo-352137405242164/">Deutschtreff: vo ergendwo</a></blockquote></div>
-        -->
         <strong>{{ t('contact_social') }}:</strong><br>
         <a href="https://www.instagram.com/voergendwo/" target="_blank" class="text-ve">
           <i class="fab fa-md fa-instagram"></i>
