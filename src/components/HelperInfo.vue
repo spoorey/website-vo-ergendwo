@@ -58,7 +58,10 @@
       <img src="../assets/helper.jpg" class="img img-fluid rounded col-lg-4 col-md-6 p-0 mr-3" style="float: left;">
       Wir sind immer auf der Suche nach neuen Gesichtern, die bereit sind, in der Freizeit ihren Mitmenschen zu helfen.
       Bei uns ist jeder willkommen, der offen ist, tolle neue Menschen kennen lernen und der einen Teil zu einer bunteren Gesellschaft beitragen möchte.
-      Interessiert?
+      <br>
+      Wir helfen Geflüchteten beim Deutschlernen, Verstehen von Behördeninformationen, bei der Stellensuche, und wo nötig bei anderen Herausforderungen.
+      <br>
+      <em>Interessiert?</em>
       Komm doch einfach mal im Deutschtreff vorbei oder melde Dich bei uns.
       <br>
       <div style="display: inline-table;">
@@ -90,18 +93,28 @@
         <br>
         Das Geld wird für Fixkosten wie Miete, Lern- und Büromaterial, Verpflegung und Reisespesen für die Teilnehmer*innen benötigt.
         Mit zusätzlichen Geldern könnten wir ausserdem weiterhin Ausflüge, spezielle Anlässe und interkulturelle Begegnungen organisieren. 
-        Besonders toll wäre für uns eine monatliche Zahlung, da wir durch eine solche Regelmässigkeit ein vorausplanendes Budget erstellen können
+        Besonders toll wäre für uns eine monatliche Zahlung, da wir durch eine solche Regelmässigkeit ein vorausplanendes Budget erstellen können.<br>
+        Wir können Dir gerne eine Spendenbestätigung zukommen lassen.<br>
+        <a href="#contact" v-scroll-to="'#contact'"  class="btn btn-ve">
+          <i class="fas fa-phone"></i> Kontaktiere uns
+        </a>
         <p>
           <strong class="text-ve">Bankdaten:</strong><br>
-          Hypothekarbank Lenzburg<br>
+          Hypothekarbank Lenzburg AG<br>
+          5600 Lenzburg<br>
+
           Deutschtreff vo Ergendwo<br>
+          Gartenstrasse 10<br>
+          5600 Lenzburg<br>
+
           CH02 0830 7000 2865 1630 6
-        </p>
-          <a :href="`${publicPath}download/Einzahlungsschein.pdf`" target="_blank" class="btn btn-ve">
+          <br>
+          <a :href="`${publicPath}download/Einzahlungsschein.pdf`" target="_blank" class="text-ve">
             <i class="fa fa-download"></i>
             <i class="fa fa-file-pdf"></i>
             Einzahlungsschein (PDF)
           </a>
+        </p>
       </div>
     </div>
     </div>

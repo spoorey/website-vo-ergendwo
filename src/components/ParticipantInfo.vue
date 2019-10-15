@@ -3,7 +3,7 @@
     <div  class="container">
     <span id="participant_info" class="nav-anchor"></span>
     <h2 class="text-center">{{ t('participant_info_title') }}</h2>
-    <p>{{ t('participant_info_text') }}</p>
+    <p style="white-space: pre-line">{{ t('participant_info_text') }}</p>
     <div class="text-center">
       <a href="#contact" v-scroll-to="'#contact'" class="btn btn-ve"><i class="fas fa-phone"></i> {{ t('nav_info_contact') }}</a>
       <a href="#location" v-scroll-to="'#location'"  class="btn btn-ve"><i class="fa fa-route"></i> {{ t('nav_location') }}</a>
