@@ -3,14 +3,14 @@
     <div  class="container">
     <span id="location" class="nav-anchor"></span>
     <h2 class="text-center">
-      {{ t('location_title') }}
+      {{ t('Anreise') }}
     </h2>
     <p>
-      {{ t('location_text') }}
+      {{ t('Wir sind im Tommasini in Lenzburg. Das Tommasini ist einfach mit dem ÖV, zu Fuss, mit dem Auto oder dem Velo erreichbar.\nParkplätze und Stellplätze für Velos sind verfügbar.\nZu Fuss ist das Tommasini vom Bahnhof Lenzburg in 15 Minuten erreichbar. Von Lenzburg Bahnhof fährt auch die Bus-Linie 391 nahe vorbei.') }}
     </p>
     <b-row class="text-left">
       <b-col cols="12" sm="6" lg="3">
-        <h4>{{ t('location_address') }}</h4>
+        <h4>{{ t('Adresse') }}</h4>
         <p>
           <b>Kulturhaus Tommasini</b><br>
           Seonerstrasse 23<br>
@@ -22,16 +22,16 @@
           target="_blank"
           href="https://www.google.com/maps/dir//Tommasini+Lenzburg,+Seonerstrasse+23,+5600+Lenzburg/@47.3832605,8.1733335,17z/">
             <i class="fa fa-map-marked-alt"></i>
-            {{ t('location_maps') }}
+            {{ t('Auf Google Maps') }}
           </a>
         </p>
       </b-col>
       <b-col cols="12" sm="6" lg="3">
-        <h4>{{ t('location_public_transport') }}</h4>
-        <b>{{ t('location_from_lb') }}</b><br>
-        {{ t('location_bus_line') }}<br>
-        {{ t('location_bus_stop') }}<br><br>
-        <b>{{ t('location_note') }}:</b> {{ t('location_note_discount') }}
+        <h4>{{ t('Öffentlicher Verkehr') }}</h4>
+        <b>{{ t('Ab Lenzburg Bahnhof') }}</b><br>
+        {{ t('Bus Linie 391') }}<br>
+        {{ t('Bis Haltestelle \"Bachstrasse\"') }}<br><br>
+        <b>{{ t('Hinweis') }}:</b> {{ t('Teilnehmenden können wir 50% der Billetkosten für den ÖV bezahlen.') }}
       </b-col>
       <b-col cols="12" lg="6">
         <iframe

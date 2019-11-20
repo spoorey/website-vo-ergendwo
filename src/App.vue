@@ -43,9 +43,14 @@ Vue.locales({
 export default {
   name: 'app',
   mounted() {
+      var locales = ['de', 'en'];
       var userLang = navigator.language || navigator.userLanguage;
       userLang = userLang.substr(0,2);
-      this.$translate.setLang(userLang);
+      if (locales.indexOf(userLang)!=-1) {
+        this.$translate.setLang(userLang);
+      } else {
+        this.$translate.setLang('de');
+      }
     },
 
   components: {

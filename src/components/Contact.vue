@@ -3,17 +3,17 @@
     <div  class="container">
     <span id="contact" class="nav-anchor"></span>
     <h2 class="text-center">
-      {{ t('contact_title') }}
+      {{ t('Kontakt') }}
     </h2>
     <b-row>
       <b-col cols="6" sm="4">
-        <strong>{{ t('contact_requests') }}:</strong><br>
+        <strong>{{ t('Ansprechsperson') }}:</strong><br>
         Marino Galli<br>
         +41 78 856 70 07<br>
         <a href="mailto:info@voergendwo.ch" class="text-ve">info@voergendwo.ch</a>
       </b-col>
       <b-col cols="6" sm="4">
-        <strong>{{ t('contact_social') }}:</strong><br>
+        <strong>{{ t('Sozaile Medien') }}:</strong><br>
         <a href="https://www.instagram.com/voergendwo/" target="_blank" class="text-ve">
           <i class="fab fa-md fa-instagram"></i>
           Instagram
@@ -25,24 +25,24 @@
         </a>
       </b-col>
       <b-col cols="12" sm="4">
-        <strong>{{ t('contact_address') }}:</strong><br>
+        <strong>{{ t('Für schriftliche Anfragen') }}:</strong><br>
         Verein "Vo Ergendwo"<br>
         Florian Kroneberger<br>
         Lindenplatz 4<br>
         5603 Staufen
       </b-col>
     </b-row>
-    <h4 class="title-ve">{{ t('contact_form') }}</h4>
+    <h4 class="title-ve">{{ t('Kontaktformular') }}</h4>
     <b-row>
       <b-col cols="12">
         <p class="">
-          {{ t('contact_form_desc') }}
+          {{ t('Du kannst uns eine Nachricht mit dem Kontaktformular senden. Gib deine E-Mail Adresse oder deine Telefonnummer an, und wir kontaktieren dich.') }}
         </p>
         <b-form @submit="onSubmit" v-if="!showSuccessText">
           <b-row>
             <b-col cols="12" md="4">
               <b-form-group id="input-group-name"
-                :label="t('contact_form_name')" label-for="input-name">
+                :label="t('Name')" label-for="input-name">
                 <b-form-input
                   id="input-name"
                   v-model="form.name"
@@ -53,7 +53,7 @@
             <b-col cols="12" md="4">
               <b-form-group
                 id="input-group-email"
-                :label="t('contact_form_email')"
+                :label="t('E-Mail Adresse')"
                 label-for="input-email"
               >
                 <b-form-input
@@ -66,7 +66,7 @@
           <b-col cols="12" md="4">
             <b-form-group
               id="input-group-phone"
-              :label="t('contact_form_phone')"
+              :label="t('Telefon-Nummer')"
               label-for="input-phone"
             >
               <b-form-input
@@ -78,7 +78,7 @@
           </b-col>
           </b-row>
           <b-form-group id="input-group-message"
-            :label="t('contact_form_message')" label-for="input-message">
+            :label="t('Nachricht')" label-for="input-message">
             <b-form-textarea
               id="input-message"
               v-model="form.message"
@@ -86,9 +86,9 @@
               required
             ></b-form-textarea>
           </b-form-group>
-          <b-button type="submit" variant="primary" :disabled="!formValid" >{{ t('contact_form_submit') }}</b-button>
+          <b-button type="submit" variant="primary" :disabled="!formValid" >{{ t('Absenden') }}</b-button>
         </b-form>
-        <div class="alert alert-success mt-2" v-if="showSuccessText">{{ t('contact_form_success') }}</div>
+        <div class="alert alert-success mt-2" v-if="showSuccessText">{{ t('Deine Nachricht wurde versendet. Wir melden uns per Telefon oder E-Mail bei dir.') }}</div>
       </b-col>
     </b-row>
     </div>

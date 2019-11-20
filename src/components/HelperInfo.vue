@@ -4,7 +4,7 @@
     <span id="helper_info" class="nav-anchor"></span>
     <h2 class="text-center">Mitmachen</h2>
     <div class="alert alert-ve text-center" v-if="this.getLang != 'de'">
-      {{ t('helper_only_german') }}
+      {{ t('This section is addressed to people interested in helping us conduct the language meet-up, and other activities. Therefore, it is only available in german.') }}
     </div>
     <p class="lead text-center"><strong>Du willst Geflüchteten helfen?</strong><strong class="text-ve"> Wir suchen dich!</strong></p>
     <!--<img src="../assets/helper-1.jpeg" class="img-fluid float-left d-inline d-lg-none">-->
@@ -72,10 +72,10 @@
         5600 Lenzburg
         <div>
           <a href="#contact" v-scroll-to="'#contact'"  class="btn btn-ve">
-            <i class="fas fa-phone"></i> {{ t('nav_info_contact') }}
+            <i class="fas fa-phone"></i> {{ t('Kontakt') }}
           </a>
           <a href="#location" v-scroll-to="'#location'"  class="btn btn-ve">
-            <i class="fa fa-route"></i> {{ t('nav_location') }}
+            <i class="fa fa-route"></i> {{ t('Anreise') }}
           </a>
           <a href="https://chat.whatsapp.com/DugWnrcoqY46CThJOcGuE0" target="_blank" class="btn btn-success">
             <i class="fab fa-whatsapp"></i> WhatsApp-Gruppe für Helfende
