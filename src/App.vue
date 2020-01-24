@@ -3,6 +3,7 @@
     <nav-bar></nav-bar>
       <!--<router-view></router-view>-->
       <about></about>
+      <party></party>
       <participant-info></participant-info>
       <helper-info></helper-info>
       <location></location>
@@ -20,6 +21,7 @@ import HelperInfo from './components/HelperInfo'
 import Location from './components/Location'
 import AppFooter from './components/AppFooter'
 import Contact from './components/Contact'
+import Party from './components/Party'
 
 import langDe from './assets/i18n/de.json'
 import langEn from './assets/i18n/en.json'
@@ -50,6 +52,7 @@ export default {
   components: {
     NavBar,
     About,
+    Party,
     Location,
     Contact,
     HelperInfo,
