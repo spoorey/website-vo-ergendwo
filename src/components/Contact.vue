@@ -13,7 +13,7 @@
         <a href="mailto:info@voergendwo.ch" class="text-ve">info@voergendwo.ch</a>
       </b-col>
       <b-col cols="6" sm="4">
-        <strong>{{ t('Sozaile Medien') }}:</strong><br>
+        <strong>{{ t('Soziale Medien') }}:</strong><br>
         <a href="https://www.instagram.com/voergendwo/" target="_blank" class="text-ve">
           <i class="fab fa-md fa-instagram"></i>
           Instagram
@@ -22,6 +22,16 @@
         <a href="https://www.facebook.com/Deutschtreff-vo-ergendwo-352137405242164" target="_blank" class="text-ve">
           <i class="fab fa-facebook fa-md"></i>
           Facebook
+        </a>
+        <br>
+        <a href="https://chat.whatsapp.com/DugWnrcoqY46CThJOcGuE0" target="_blank" class="text-ve">
+          <i class="fab fa-whatsapp"></i>
+          {{ t('WhatsApp (Helfende)') }}
+        </a>
+        <br>
+        <a href="https://chat.whatsapp.com/0TtLehzVly6IyQ9JLFrBUP" target="_blank" class="text-ve">
+          <i class="fab fa-whatsapp"></i>
+          {{ t('WhatsApp (Teilnehmende)') }}
         </a>
       </b-col>
       <b-col cols="12" sm="4">
