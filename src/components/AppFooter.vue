@@ -11,6 +11,8 @@
     </b-col>
     <b-col cols="4" sm="6" class="text-right">
       Deutschtreff: Vo Ergendwo {{ new Date().getFullYear() }}
+      <br>
+      Website: David Spörri
     </b-col>
     </b-row>
   </footer>
