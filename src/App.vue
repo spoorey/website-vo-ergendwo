@@ -22,9 +22,7 @@ import AppFooter from './components/AppFooter'
 import Contact from './components/Contact'
 
 import langDe from './assets/i18n/de.json'
-import langFr from './assets/i18n/fr.json'
 import langEn from './assets/i18n/en.json'
-import langTg from './assets/i18n/tg.json'
 import VueScrollTo from 'vue-scrollto'
 import VueTranslate from 'vue-translate-plugin'
 
@@ -34,10 +32,6 @@ Vue.use(VueScrollTo, {duration: 250})
 Vue.locales({
   de: langDe,
   en: langEn,
-  /*
-  tg: langTg,
-  fr: langFr
-  */
 })
 
 export default {
