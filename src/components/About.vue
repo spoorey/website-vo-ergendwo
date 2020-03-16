@@ -5,10 +5,23 @@
         <h1> {{ t('Wir sind alle \"Vo Ergendwo\"') }}</h1>
         <img class="pencil" src="../assets/pencil.png">
         <p>{{ t('Deutschtreff für Geflüchtete - jeden Dienstag 18:00 bis 20:00 im Tommasini Lenzburg') }}</p>
+        <p class="corona alert alert-danger">
+          Liebe Teilnehmende des Deutschtreffs.<br>
+          Leider müssen wir den Deutschtreff bis auf weiteres schliessen.<br>
+          Grund dafür ist der Coronavirus-Ausbruch.<br>
+          Wir werden euch informieren, wenn wir den Deutschtreff wieder öffnen können.<br>
+          Falls ihr dringend Hilfe von uns braucht, könnt ihr uns trotzdem kontaktieren.
+        </p>
+        <a class="btn btn-ve btn-lg" href="#contact" v-scroll-to="'#contact'" >
+          <i class="fa fa-phone"></i> 
+          {{ t('Kontakt') }}
+        </a>
+        <!--
         <a class="btn btn-ve btn-lg" href="#location" v-scroll-to="'#location'" >
           <i class="fa fa-route"></i> 
           {{ t('Anreise') }}
         </a>
+        -->
     </div>
   </section>
 </template>
@@ -45,6 +58,11 @@ export default {
 
   p {
     font-size: 1.1rem;
+    text-decoration: line-through;
+  }
+
+  p.corona {
+    text-decoration: none;
   }
 }
 </style>
