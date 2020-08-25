@@ -8,7 +8,7 @@
         <div class="alert alert-success">
           <div v-if="this.getLang == 'de'">
             Liebe Teilnehmende des Deutschtreffs.<br>
-            Wir können auch mit Corona den Deutschtreff durchführen.<br>
+            Wir können auch in Coronazeiten den Deutschtreff durchführen.<br>
             Wir werden auf gute Hygiene achten, Masken sowie Desinfektionsmittel kostenlos bereitstellen und auch eine Anwesenheitsliste führen.<br> 
             Wir freuen uns, euch zu sehen!<br>
             <br>
@@ -23,8 +23,6 @@
             <br>
             On the BAG website, you can find information on the coronavirus in various languages, (including Farsi, Tigrinya, Tibetan and many more):<br>
             <a href="https://bag-coronavirus.ch/downloads/">bag-coronavirus.ch/downloads/</a>
-            <br>
-            You can always contact us with any questions, even during the summer break.
           </div>
         </div>
         <a class="btn btn-ve btn-lg" href="#contact" v-scroll-to="'#contact'" >
