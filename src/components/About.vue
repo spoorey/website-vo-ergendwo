@@ -8,20 +8,18 @@
         <div class="alert alert-success">
           <div v-if="this.getLang == 'de'">
             Liebe Teilnehmende des Deutschtreffs.<br>
-            Wir werden vom 16. Juni - 7. Juli Deutschtreff durchführen. Danach werden wir wie jedes Jahr eine Sommerpause machen.<br>
-            Wir werden auf gute Hygiene achten und auch eine Anwesenheitsliste führen, um im Falle einer Infektion Infektionsketten unterbrechen zu können.<br> 
-            Wir freuen uns, euch wieder zu sehen!<br>
-            <br>
-            Ihr könnt uns, auch während der Sommerpause, jederzeit kontaktieren, wenn ihr Fragen habt.
+            Wir können auch mit Corona den Deutschtreff durchführen.<br>
+            Wir werden auf gute Hygiene achten, Masken sowie Desinfektionsmittel kostenlos bereitstellen und auch eine Anwesenheitsliste führen.<br> 
+            Wir freuen uns, euch zu sehen!<br>
             <br>
             Auf der Website des BAG findet ihr Informationen zum Coronavirus in verschiedenen Sprachen (unter anderem Farsi, Tigrinisch, Tibetisch und viele mehr):<br>
             <a href="https://bag-coronavirus.ch/downloads/">bag-coronavirus.ch/downloads/</a>
           </div>
           <div v-if="this.getLang != 'de'">
             Dear participants of the language meet-up.<br>
-            We will conduct the language meetup again, from the 16th of June to the 7th of July. After that there will be a summer break, just like every year.<br>
-            We will mantain good hygiene and also keep an attendance list so that we can interrupt chains of infection in case of an infection.<br>
-            We're looking forward to seeing you again!<br>
+            We can conduct the language meet-up even during the time of the coronavirus.<br>
+            We will mantain good hygiene, offer free masks and disinfectant and also keep an attendance list.<br>
+            We're looking forward to seeing you!<br>
             <br>
             On the BAG website, you can find information on the coronavirus in various languages, (including Farsi, Tigrinya, Tibetan and many more):<br>
             <a href="https://bag-coronavirus.ch/downloads/">bag-coronavirus.ch/downloads/</a>
