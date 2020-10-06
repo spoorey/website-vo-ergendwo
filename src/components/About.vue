@@ -9,7 +9,9 @@
           <div v-if="this.getLang == 'de'">
             Liebe Teilnehmende des Deutschtreffs.<br>
             Wir können auch in Coronazeiten den Deutschtreff durchführen.<br>
-            Wir werden auf gute Hygiene achten, Masken sowie Desinfektionsmittel kostenlos bereitstellen und auch eine Anwesenheitsliste führen.<br> 
+            Um Ansteckungen zu vermeiden, gilt im Deutschtreff eine <em>Maskenpflicht</em>.<br>
+            Für Kinder unter 12 Jahren und Leute, welche den Abstand von 1.5 Meter einhalten, gibt es keine Maskenpflicht.<br> 
+            Masken stehen kostenlos zur Verfügung.<br>
             Wir freuen uns, euch zu sehen!<br>
             <br>
             Auf der Website des BAG findet ihr Informationen zum Coronavirus in verschiedenen Sprachen (unter anderem Farsi, Tigrinisch, Tibetisch und viele mehr):<br>
@@ -18,7 +20,9 @@
           <div v-if="this.getLang != 'de'">
             Dear participants of the language meet-up.<br>
             We can conduct the language meet-up even during the time of the coronavirus.<br>
-            We will mantain good hygiene, offer free masks and disinfectant and also keep an attendance list.<br>
+            To avoid infections, <em>wearing a mask is mandatory</em> in the meet-up.<br>
+            Children younger than 12 years, and people keeping a distance of 1.5 meters do not have to wear a mask.<br>
+            Masks are available for free.<br>
             We're looking forward to seeing you!<br>
             <br>
             On the BAG website, you can find information on the coronavirus in various languages, (including Farsi, Tigrinya, Tibetan and many more):<br>
