@@ -11,7 +11,7 @@
             Wir können auch in Coronazeiten den Deutschtreff durchführen.<br>
             Um Ansteckungen zu vermeiden, gilt im Deutschtreff eine <em>Maskenpflicht</em> für alle, die älter als 12 sind.<br>
             Masken stehen kostenlos zur Verfügung.<br>
-            Ausserdem führen wir eine <em>Anwesenheitsliste</em>, auf der Kontaktdaten der Anwesnenden festgehalten werden.<br>
+            Ausserdem führen wir eine <em>Anwesenheitsliste</em>, auf der Kontaktdaten der Anwesenden festgehalten werden.<br>
             Wir freuen uns, euch zu sehen!<br>
             <br>
             Auf der Website des BAG findet ihr Informationen zum Coronavirus in verschiedenen Sprachen (unter anderem Farsi, Tigrinisch, Tibetisch und viele mehr):<br>
