@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="helper-info">
     <div  class="container">
     <span id="helper_info" class="nav-anchor"></span>
     <h2 class="text-center">Mitmachen</h2>
@@ -138,13 +138,9 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style lang="less">
+<style scoped lang="less">
 section * {
   overflow: hidden;
-}
-
-a.btn {
-  margin-bottom: 5px;
 }
 
 .collapsed > .when-opened,

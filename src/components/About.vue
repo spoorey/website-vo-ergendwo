@@ -54,7 +54,7 @@ export default {
   }
 }
 </script>
-<style lang="less">
+<style scoped lang="less">
 .about {
   text-align: center;
   padding: 5%;

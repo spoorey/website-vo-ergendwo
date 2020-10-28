@@ -59,7 +59,7 @@ export default {
   }
 }
 </script>
-<style lang="less">
+<style scoped lang="less">
 footer {
   padding: 10px 10px;
   overflow: hidden;

@@ -50,7 +50,7 @@ export default {
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style>
+<style scoped>
 .mobile-lang {
   position: absolute;
   right: 80px;
