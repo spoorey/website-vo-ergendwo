@@ -15,6 +15,7 @@
 import Vue from 'vue'
 import NavBar from './components/NavBar'
 import About from './components/About'
+import Corona from './components/Corona'
 import ParticipantInfo from './components/ParticipantInfo'
 import HelperInfo from './components/HelperInfo'
 import Location from './components/Location'
@@ -50,6 +51,7 @@ export default {
   components: {
     NavBar,
     About,
+    Corona,
     Location,
     Contact,
     HelperInfo,
