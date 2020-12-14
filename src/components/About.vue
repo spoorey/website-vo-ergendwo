@@ -6,26 +6,12 @@
         <img class="pencil" src="../assets/pencil.png">
         <p>{{ t('Deutschtreff für Geflüchtete - jeden Dienstag 18:00 bis 20:00 im Tommasini Lenzburg') }}</p>
         <div class="alert alert-success">
-          <div v-if="this.getLang == 'de'">
-            Liebe Teilnehmende des Deutschtreffs.<br>
-            Wir können auch in Coronazeiten den Deutschtreff durchführen.<br>
-            Um Ansteckungen zu vermeiden, gilt im Deutschtreff eine <em>Maskenpflicht</em> für alle, die älter als 12 sind.<br>
-            Masken stehen kostenlos zur Verfügung.<br>
-            Ausserdem führen wir eine <em>Anwesenheitsliste</em>, auf der Kontaktdaten der Anwesenden festgehalten werden.<br>
-            Wir freuen uns, euch zu sehen!<br>
+          <div>
+            Aufgrund den neuen Regeln vom BAG können wir bis auf weiteres <em>KEINEN</em> Deutschtreff durchführen.<br>
+            Das ist natürlich schade aber verständlich!<br>
+            Bei neuen Infos melden wir uns umgehend. Das ganze Vo Ergendwo-Team wünscht euch allen viel Gesundheit, eine schöne Adventszeit und bis im neuen Jahr!
             <br>
             Auf der Website des BAG findet ihr Informationen zum Coronavirus in verschiedenen Sprachen (unter anderem Farsi, Tigrinisch, Tibetisch und viele mehr):<br>
-            <a href="https://bag-coronavirus.ch/downloads/">bag-coronavirus.ch/downloads/</a>
-          </div>
-          <div v-if="this.getLang != 'de'">
-            Dear participants of the language meet-up.<br>
-            We can conduct the language meet-up even during the time of the coronavirus.<br>
-            To avoid infections, <em>wearing a mask is mandatory</em> in the meet-up for everyone older than 12.<br>
-            Masks are available for free.<br>
-            Further, we will fill an <em>attendance list</em> to keep the contact data of everyone attending the meet-up.<br>
-            We're looking forward to seeing you!<br>
-            <br>
-            On the BAG website, you can find information on the coronavirus in various languages, (including Farsi, Tigrinya, Tibetan and many more):<br>
             <a href="https://bag-coronavirus.ch/downloads/">bag-coronavirus.ch/downloads/</a>
           </div>
         </div>
