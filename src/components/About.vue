@@ -7,12 +7,14 @@
         <p>{{ t('Deutschtreff für Geflüchtete - jeden Dienstag 18:00 bis 20:00 im Tommasini Lenzburg') }}</p>
         <div class="alert alert-success">
           <div>
-            Aufgrund den neuen Regeln vom BAG können wir bis auf weiteres <em>KEINEN</em> Deutschtreff durchführen.<br>
-            Das ist natürlich schade aber verständlich!<br>
-            Bei neuen Infos melden wir uns umgehend. Das ganze Vo Ergendwo-Team wünscht euch allen viel Gesundheit, eine schöne Adventszeit und bis im neuen Jahr!
+            <h3>Corona-Info</h3>
+            Der Deutschtreff findet normal statt.
             <br>
             Auf der Website des BAG findet ihr Informationen zum Coronavirus in verschiedenen Sprachen (unter anderem Farsi, Tigrinisch, Tibetisch und viele mehr):<br>
             <a href="https://bag-coronavirus.ch/downloads/">bag-coronavirus.ch/downloads/</a>
+            <br>
+            Informationen zur Impfung findet ihr ebenfalls in verschiedenen Sprachen auf der Webseite des Kanton Aargau:<br>
+            <a href="https://www.ag.ch/de/themen_1/coronavirus_2/10_coronavirus_impfung/anmeldung_covid_impfung/impf_anmeldung.jsp">https://www.ag.ch/de/themen_1/coronavirus_2/10_coronavirus_impfung/anmeldung_covid_impfung/impf_anmeldung.jsp</a>
           </div>
         </div>
         <a class="btn btn-ve btn-lg" href="#contact" v-scroll-to="'#contact'" >
