@@ -4,9 +4,10 @@
     <b-col cols="8" sm="6">
       <strong>{{ t('Freunde von irgendwo') }}</strong>
       <ul class="footer-list">
-        <li><a href="https://www.contakt-citoyennete.ch/" target="_blank">conTAKT-citoyenneté</a></li>
         <li><a href="https://www.tomm.ch/" target="_blank">Tommasini</a></li>
+        <li><a href="https://www.contakt-citoyennete.ch/" target="_blank">conTAKT-citoyenneté</a></li>
         <li><a href="http://www.netzwerk-asyl.ch/" target="_blank">Netzwerk Asyl</a></li>
+        <li><a href="https://www.kofff.ch" target="_blank">KoFFF</a></li>
       </ul>
     </b-col>
     <b-col cols="4" sm="6" class="text-right">
