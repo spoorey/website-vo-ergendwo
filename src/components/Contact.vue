@@ -36,10 +36,10 @@
       </b-col>
       <b-col cols="12" sm="4">
         <strong>{{ t('Für schriftliche Anfragen') }}:</strong><br>
+        Kulturhaus Tommasini<br>
         Verein "Vo Ergendwo"<br>
-        Florian Kroneberger<br>
-        Lindenplatz 4<br>
-        5603 Staufen
+        Seonerstrasse 23<br>
+        5600 Lenzburg
       </b-col>
     </b-row>
     <h4 class="title-ve">{{ t('Kontaktformular') }}</h4>
