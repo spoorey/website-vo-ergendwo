@@ -3,6 +3,7 @@
     <nav-bar></nav-bar>
       <!--<router-view></router-view>-->
       <about></about>
+      <corona></corona>
       <participant-info></participant-info>
       <helper-info></helper-info>
       <location></location>
