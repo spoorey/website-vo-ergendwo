@@ -4,8 +4,15 @@
     <div class="about">
         <h1> {{ t('Wir sind alle \"Vo Ergendwo\"') }}</h1>
         <img class="pencil" src="../assets/pencil.png">
-        <p>{{ t('Deutschtreff für Geflüchtete - jeden Dienstag 18:00 bis 20:00 im Tommasini Lenzburg') }}</p>
-
+        <p>{{ t('Deutschtreff für Geflüchtete - jeden zweiten Dienstag 18:00 bis 20:00 im Tommasini Lenzburg') }}</p>
+        <p>{{ t('Der Deutschtreff findet an folgenden Daten statt:') }}</p>
+        <strong>
+        <ul>
+          <li v-for="date in dates" v-bind:key="date">
+            {{ date }}
+          </li>
+        </ul>
+        </strong>
         <a class="btn btn-ve btn-lg" href="#contact" v-scroll-to="'#contact'" >
           <i class="fa fa-phone"></i> 
           {{ t('Kontakt') }}
@@ -19,6 +26,8 @@
 </template>
 
 <script>
+import dates from '../../public/dates.json'
+
 export default {
   name: 'about',
   computed: {
@@ -27,7 +36,9 @@ export default {
     }
   },
   data () {
-    return {}
+    return {
+      dates: dates
+    }
   }
 }
 </script>
@@ -55,6 +66,9 @@ export default {
 
   p {
     font-size: 1.1rem;
+  }
+  ul {
+    list-style: none;
   }
 }
 </style>
