@@ -3,7 +3,7 @@
     <div class="container">
     <h2 class="text-center">Coronavirus: aktuelle Regeln</h2>
           <p>
-            Um am Deutschtreff teilnehmen zu können, ist <strong>Zertifikat mehr</strong> nötig.
+            Um am Deutschtreff teilnehmen zu können, ist <strong>kein Zertifikat mehr</strong> nötig.
             Es können alle in den Deutschtreff kommen, auch wer nicht geimpft oder genesen ist.<br>
             Nur wer aktuell an Corona erkrankt ist, darf nicht teilnehmen.<br>
             Wir empfehlen trotzdem weiterhin, sich zu impfen und bei Symptomen zu testen.
