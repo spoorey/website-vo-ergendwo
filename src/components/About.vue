@@ -26,7 +26,6 @@
 </template>
 
 <script>
-import dates from '../../public/dates.json'
 
 export default {
   name: 'about',
@@ -37,8 +36,15 @@ export default {
   },
   data () {
     return {
-      dates: dates
+      dates: []
     }
+  },
+  created: function() {
+    fetch('dates.json')
+        .then(r => r.json())
+        .then(data => {
+          this.dates=data;
+        });
   }
 }
 </script>

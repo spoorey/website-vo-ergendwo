@@ -4,7 +4,7 @@ $filename = 'dates.json';
 $updated = false;
 $correctPassword = isset($_POST['password']) && password_verify($_POST['password'], PASSWORD_HASH);
 if (isset($_POST['dates']) && ($correctPassword)) {
-    file_put_contents($filename, json_encode(explode(PHP_EOL,$_POST['dates'])));
+    file_put_contents($filename, json_encode(explode(PHP_EOL,trim($_POST['dates']))));
     $updated = true;
 }
 if (!file_exists($filename)) {
@@ -12,7 +12,7 @@ if (!file_exists($filename)) {
 }
 $dates = json_decode(file_get_contents($filename));
 ?>
-<?= (!$correctPassword) ? '<strong>Falsches Passwort</strong>' : ''?>
+<?= (!$correctPassword && isset($_POST['dates'])) ? '<strong>Falsches Passwort</strong>' : ''?>
 <?php if ($updated): ?>
     Neue Daten:
     <ul>
