@@ -3,9 +3,10 @@
     <div class="container">
     <h2 class="text-center">Coronavirus: aktuelle Regeln</h2>
           <p>
-            Um am Deutschtreff teilnehmen zu können, ist ein <strong>2G-Zertifikat</strong> nötig. Das heisst Ihr müsst geimpft, oder von einer Corona-Erkrankung genesen sein.<br>
-            Bitte bringt <strong> Zertifikat und Ausweis</strong> mit.
-            Ausserdem gilt eine Maskenpflicht. Wir stellen kostenlos Masken zur Verfügung.
+            Um am Deutschtreff teilnehmen zu können, ist <strong>Zertifikat mehr</strong> nötig.
+            Es können alle in den Deutschtreff kommen, auch wer nicht geimpft oder genesen ist.<br>
+            Nur wer aktuell an Corona erkrankt ist, darf nicht teilnehmen.<br>
+            Wir empfehlen trotzdem weiterhin, sich zu impfen und bei Symptomen zu testen.
           </p>
           <p>
             Auf der Website des BAG findet ihr Informationen zum Coronavirus in verschiedenen Sprachen (unter anderem Farsi, Tigrinisch, Tibetisch und viele mehr): 
