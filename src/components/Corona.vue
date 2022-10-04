@@ -16,11 +16,7 @@
             <a href="https://www.ag.ch/de/themen_1/coronavirus_2/10_coronavirus_impfung/anmeldung_covid_impfung/impf_anmeldung.jsp">https://www.ag.ch/de/themen_1/coronavirus_2/10_coronavirus_impfung/anmeldung_covid_impfung/impf_anmeldung.jsp</a>
           </p>
           <div class="text-center">
-          Wir informieren euch immer über die aktuellen Regeln in der WhatsApp-Gruppe:<br>
-          <a href="https://chat.whatsapp.com/0TtLehzVly6IyQ9JLFrBUP" target="_blank" class="btn btn-success">
-            <i class="fab fa-whatsapp"></i>
-            {{ t('WhatsApp (Teilnehmende)') }}
-          </a>
+          Wir informieren euch immer über die aktuellen Regeln in der WhatsApp-Gruppe.<br>
           </div>
     </div>
   </section>

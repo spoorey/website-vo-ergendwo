@@ -77,9 +77,6 @@
           <a href="#location" v-scroll-to="'#location'"  class="btn btn-ve">
             <i class="fa fa-route"></i> {{ t('Anreise') }}
           </a>
-          <a href="https://chat.whatsapp.com/DugWnrcoqY46CThJOcGuE0" target="_blank" class="btn btn-success">
-            <i class="fab fa-whatsapp"></i> WhatsApp-Gruppe für Helfende
-          </a>
         </div>
       </div>
 

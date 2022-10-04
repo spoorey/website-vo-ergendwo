@@ -8,12 +8,6 @@
       <a href="#contact" v-scroll-to="'#contact'" class="btn btn-ve"><i class="fas fa-phone"></i> {{ t('Kontakt') }}</a>
       <a href="#location" v-scroll-to="'#location'"  class="btn btn-ve"><i class="fa fa-route"></i> {{ t('Anreise') }}</a>
     </div>
-    <div class="text-center">
-      <a href="https://chat.whatsapp.com/0TtLehzVly6IyQ9JLFrBUP" target="_blank" class="btn btn-success">
-        <i class="fab fa-whatsapp"></i>
-        {{ t('WhatsApp-Gruppe für Teilnehmende') }}
-      </a>
-    </div>
     </div>
   </section>
 </template>
